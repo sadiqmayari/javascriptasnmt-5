@@ -28,7 +28,7 @@ var ticketPrice = 600;
 var totalTickets = +prompt("How Many Tickets do you Want to Buy?");
 var amount = ticketPrice*totalTickets;
 
-document.write("Total cost of "+ totalTickets +" to a movie is "+ amount +" PKR."+ "<br><br><br>");
+document.write("Total cost of "+ totalTickets +" ticket(s) to a movie is "+ amount +" PKR."+ "<br><br><br>");
 
 
 var tableOf= +prompt("which table you want to see?");
