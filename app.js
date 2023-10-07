@@ -31,22 +31,15 @@ var amount = ticketPrice*totalTickets;
 document.write("Total cost of "+ totalTickets +" ticket(s) to a movie is "+ amount +" PKR."+ "<br><br><br>");
 
 
-var tableOf= +prompt("which table you want to see?");
+var number= +prompt("which table you want to see?");
 
 
-document.write("Here is the table of   "+ tableOf + "   for You." + "<br><br>");
-document.write(tableOf + " X " + "1" + " = " + tableOf*1 + "<br><br>");
-document.write(tableOf + " X " + "2" + " = " + tableOf*2 + "<br><br>");
-document.write(tableOf + " X " + "3" + " = " + tableOf*3 + "<br><br>");
-document.write(tableOf + " X " + "4" + " = " + tableOf*4 + "<br><br>");
-document.write(tableOf + " X " + "5" + " = " + tableOf*5 + "<br><br>");
-document.write(tableOf + " X " + "6" + " = " + tableOf*6 + "<br><br>");
-document.write(tableOf + " X " + "7" + " = " + tableOf*7 + "<br><br>");
-document.write(tableOf + " X " + "8" + " = " + tableOf*8 + "<br><br>");
-document.write(tableOf + " X " + "9" + " = " + tableOf*9 + "<br><br>");
-document.write(tableOf + " X " + "10" + " = " + tableOf*10 + "<br><br><br><br><br>");
+document.write("Here is the table of   "+ number + "   for You." + "<br><br>");
+for (var i = 1; i <= 10; i++) {
+    document.write(number + " x " + i + " = " + (number * i) + "<br>");
+}
 
-
+document.write("<br><br><br>");
 document.write("degree conversion" + "<br><br>");
 
 var c=25;
